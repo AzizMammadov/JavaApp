@@ -14,6 +14,7 @@ public class SearchWithArray {
 
 
         Scanner scanner = new Scanner(System.in);
+/*
 int [] array = new int[10];
 System.out.println("Enter 10 numbers : ");
 for (int i = 0; i < array.length; i++) {
@@ -34,5 +35,44 @@ int search = scanner.nextInt();
         if (!found) {
             System.out.println("Eded massivde yoxdur.");
         }
+ */
+/* Bir massivdəki tək ədədləri tapın və ekrana yazdırın. (İstifadəçi tərəfindən daxil edilmiş ədəd
+massivinə görə işləsin.) */
+        System.out.println("Example 6.3.2 ");
+
+  /*
+        System.out.print("Array-in size: ");
+        int arrsize = scanner.nextInt();
+        int[] arr = new int[arrsize];
+        System.out.println(arrsize);
+        for (int i = 0; i < arrsize; i++) {
+            arr[i] = scanner.nextInt();
+            }
+        System.out.println("Array-in element: " + Arrays.toString(arr));
+        System.out.print("Array-in tek elementleri: ");
+
+         for (int i = 0; i < arr.length; i++) {
+
+             if(arr[i]%2 != 0){
+               System.out.print(arr[i] + " ");
+             }
+
+         }
+*/
+
+      /*  Bir massivdə və ya növbəti ən böyük və ən kiçik ədədi tapın. Məsələn, əgər massivdə 3, 5, 7, 9
+        ədədləri varsa, ən kiçikdən sonra ən kiçik olan 5 olmalıdır*/
+        System.out.println("Example 6.3.3 ");
+
+        int[] arr = { 1,3,2,4,1,4};
+        System.out.println("ARRAY"+ Arrays.toString(arr));
+        Arrays.sort(arr);
+        int secondSmallest = arr[1]; // Sıralanmış massivdə ikinci ən kiçik ədəd
+        int secondLargest = arr[arr.length - 2]; // Sıralanmış massivdə ikinci ən böyük ədəd
+
+        // Nəticələri ekrana yazdırırıq
+        System.out.println("İkinci ən kiçik ədəd: " + secondSmallest);
+        System.out.println("İkinci ən böyük ədəd: " + secondLargest);
+
     }
 }
