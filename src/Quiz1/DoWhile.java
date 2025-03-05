@@ -8,8 +8,7 @@ package Quiz1;
 import java.util.Scanner;
 
 public class DoWhile {
-    public DoWhile() {
-    }
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
