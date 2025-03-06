@@ -10,7 +10,7 @@ public class SwapModifyWithArray {
             bir-biri ilə mübadilə edin (yəni, massivlərin elementlərini dəyişdirin)*/
 
 Scanner sc = new Scanner(System.in);
-/*
+
 Integer[] arr1 = new Integer[5];
 Integer[] arr2 = new Integer[5];
 
@@ -33,8 +33,8 @@ for (int i = 0; i < arr1.length; i++) {
 System.out.println("NewFirst  Array is  : " + Arrays.toString(arr1));
 System.out.println("NewSecond Array is  : " + Arrays.toString(arr2));
 
-*/
-        .
+
+
 
 
 
