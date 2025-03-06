@@ -63,7 +63,7 @@ massivinə görə işləsin.) */
       /*  Bir massivdə və ya növbəti ən böyük və ən kiçik ədədi tapın. Məsələn, əgər massivdə 3, 5, 7, 9
         ədədləri varsa, ən kiçikdən sonra ən kiçik olan 5 olmalıdır*/
         System.out.println("Example 6.3.3 ");
-
+/*
         int[] arr = { 1,3,2,4,1,4};
         System.out.println("ARRAY"+ Arrays.toString(arr));
         Arrays.sort(arr);
@@ -73,6 +73,27 @@ massivinə görə işləsin.) */
         // Nəticələri ekrana yazdırırıq
         System.out.println("İkinci ən kiçik ədəd: " + secondSmallest);
         System.out.println("İkinci ən böyük ədəd: " + secondLargest);
+*/
+
+  /*  Bir massivdəki ədədlərin orta qiymətinə görə sıralama aparın. (Ən yaxın olanları bir-birinə
+sıralayın*/
+        System.out.println("Example 6.3.4 ");
+        int[] arr = { 1,3,2,4,1,4};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
