@@ -10,7 +10,7 @@ public class Main {
         Book book2 = new Book("C#", "Eva", 1945);
         book2.displayDetails();
         Book book3 = new Book("C++", "Eliot", 1918);
-book3.displayDetails();
+        book3.displayDetails();
 
 
 
