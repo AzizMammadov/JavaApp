@@ -29,4 +29,10 @@ public class Person {
     public void introduce() {
         System.out.println("Salam, mənim adım :" + this.name + "Men :" + this.age+ " yasindayam");
     }
+
+
+
+
+
+
 }
