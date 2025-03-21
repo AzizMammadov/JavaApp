@@ -2,6 +2,7 @@ package Quiz3;
 
 import Quiz3.ClassesAndObjects.Book;
 import Quiz3.ClassesAndObjects.Person;
+import Quiz3.Encapsulation.Employee;
 import Quiz3.Encapsulation.Student;
 
 import java.util.Scanner;
@@ -20,8 +21,22 @@ public class Main {
 
 Student student = new Student();
 student.setGrade();
+//public void EmployeeMain () {
 
+Scanner scanner = new Scanner(System.in);
+            System.out.println("Employee name: " );
+String name = scanner.nextLine();
 
+Employee employee = new Employee();
 
-}
-}
+employee.getSalary();
+        System.out.println("Employee grade: " );
+
+double grade = scanner.nextDouble();
+
+        employee.increaseSalary(grade);
+        scanner.close();
+
+        }
+           //  }
+                }
