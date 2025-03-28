@@ -26,6 +26,9 @@ student.setGrade();
 Scanner scanner = new Scanner(System.in);
             System.out.println("Employee name: " );
         System.out.println("Employee name: " );
+        System.out.println("Employee name: " );
+        Employee employee = new Employee();
+        Employee employee1 = new Employee();
 
 String name = scanner.nextLine();
 
