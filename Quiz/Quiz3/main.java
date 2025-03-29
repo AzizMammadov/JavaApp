@@ -1,9 +1,9 @@
-package Quiz3;
+package Quiz.Quiz3;
 
-import Quiz3.ClassesAndObjects.Book;
-import Quiz3.ClassesAndObjects.Person;
-import Quiz3.Encapsulation.Employee;
-import Quiz3.Encapsulation.Student;
+import Quiz.Quiz3.ClassesAndObjects.Book;
+import Quiz.Quiz3.ClassesAndObjects.Person;
+import Quiz.Quiz3.Encapsulation.Employee;
+import Quiz.Quiz3.Encapsulation.Student;
 
 import java.util.Scanner;
 

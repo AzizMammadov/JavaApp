@@ -1,4 +1,4 @@
-package QuizApp;
+package Quiz.QuizApp;
 
 import java.io.IOException;
 import java.util.HashMap;

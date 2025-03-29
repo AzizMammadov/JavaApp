@@ -1,6 +1,5 @@
-package QuizApp;
+package Quiz.QuizApp;
 import java.io.*;
-import java.util.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

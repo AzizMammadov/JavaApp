@@ -1,4 +1,4 @@
-package Quiz3.Encapsulation;
+package Quiz.Quiz3.Encapsulation;
 
 import java.util.Scanner;
 

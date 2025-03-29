@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package Quiz2;
+package Quiz.Quiz2;
 
 import java.util.Scanner;
 

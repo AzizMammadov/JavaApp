@@ -1,6 +1,5 @@
-package Quiz2;
+package Quiz.Quiz2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class SearchWithArray {

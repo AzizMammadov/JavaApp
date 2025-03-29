@@ -1,11 +1,11 @@
-package QuizApp;
+package Quiz.QuizApp;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import static QuizApp.User.hashPassword;
-import static QuizApp.UserManagement.FILE_NAME;
-import static QuizApp.UserManagement.users;
+import static Quiz.QuizApp.User.hashPassword;
+import static Quiz.QuizApp.UserManagement.FILE_NAME;
+import static Quiz.QuizApp.UserManagement.users;
 
 public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {

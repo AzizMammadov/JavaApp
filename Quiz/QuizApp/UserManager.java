@@ -1,4 +1,4 @@
-package QuizApp;
+package Quiz.QuizApp;
 
 public class UserManager {
 }

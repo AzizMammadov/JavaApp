@@ -1,4 +1,4 @@
-package Quiz3.ClassesAndObjects;
+package Quiz.Quiz3.ClassesAndObjects;
 
 public class Book {
 
