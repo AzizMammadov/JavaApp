@@ -7,7 +7,7 @@ import Quiz3.Encapsulation.Student;
 
 import java.util.Scanner;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
 
     Person person = new Person(" Aziz ", 25);
@@ -25,10 +25,9 @@ student.setGrade();
 
 Scanner scanner = new Scanner(System.in);
             System.out.println("Employee name: " );
-        System.out.println("Employee name: " );
-        System.out.println("Employee name: " );
-        Employee employee = new Employee();
-        Employee employee1 = new Employee();
+
+
+
 
 String name = scanner.nextLine();
 
@@ -43,5 +42,5 @@ double grade = scanner.nextDouble();
         scanner.close();
 
         }
-           //  }
+           // }
                 }
