@@ -13,7 +13,7 @@ public class DoWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Example 5.1");
-        System.out.println("Example 5.2");
+        //System.out.println("Example 5.2");
         System.out.println("Example 5.3");
         System.out.println("Example 5.4");
         System.out.println(" Daxil etdiyiniz ededlerden en kiciyinini tapilmasi..");
