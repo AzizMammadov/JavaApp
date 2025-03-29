@@ -1,7 +1,14 @@
 package Quiz.Quiz3.Encapsulation;
 
 import java.util.Scanner;
+/*
+Bir Employee sinfi yaradın.
+•	name, salary sahələri olsun.
+•	increaseSalary(double percent) metodu maaşı faizlə artırsın.
+•	getSalary() metodu cari maaşı qaytarsın.
+•	 Maaş artırıldıqdan sonra yeni dəyəri çap edin.
 
+ */
 public class Employee {
 
     private String name;
@@ -35,9 +42,8 @@ public class Employee {
 
     public void  increaseSalary(double percent) {
         // double salary = getSalary();
-        double salary1 = 0;
-        salary1 += salary1 * (percent / 100);
-        System.out.println("Artim sonrasi maas : " + salary1);
+        salary += salary * (percent / 100);
+        System.out.println("Artim sonrasi maas : " + salary);
         //   return salary;
 
 

@@ -4,10 +4,11 @@ import Quiz.Quiz3.ClassesAndObjects.Book;
 import Quiz.Quiz3.ClassesAndObjects.Person;
 import Quiz.Quiz3.Encapsulation.Employee;
 import Quiz.Quiz3.Encapsulation.Student;
+import Quiz.Quiz3.Inheritance.*;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
     Person person = new Person(" Aziz ", 25);
@@ -25,22 +26,27 @@ student.setGrade();
 
 Scanner scanner = new Scanner(System.in);
             System.out.println("Employee name: " );
-
-
-
-
-String name = scanner.nextLine();
+            String name = scanner.nextLine();
 
 Employee employee = new Employee();
 
-employee.getSalary();
+System.out.println("Employee salary: " + employee.getSalary());
         System.out.println("Employee grade: " );
 
 double grade = scanner.nextDouble();
 
         employee.increaseSalary(grade);
         scanner.close();
+System.out.println("*********************" );
+        Car car = new Car();
 
-        }
+       car.displayInfo("Nissan", 110);
+//new Car().displayInfo("Nissan", 110);
+
+        Animal dog = new Dog(); // upcasting-e ehtiyac yoxdur
+        dog.makeSound();
+        Animal cat = new Cat();
+        cat.makeSound();
+    }
            // }
                 }
